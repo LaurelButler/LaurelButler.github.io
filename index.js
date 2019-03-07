@@ -24,11 +24,16 @@ const pageFour = function() {
     //this page will consist of my footer info
 }
 
+const renderPortfolio = function() {
+
+}
+
 function main() {
     pageOne();
     pageTwo();
     pageThree();
     pageFour();
+    renderPortfolio();
 }
 
 $(main);
