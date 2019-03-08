@@ -3,13 +3,13 @@
 const store = {
     pageOne: true,
     pageTwo: false,
-    pageThree: false,
-    pageFour: false
+    pageThree: false
 }
 
 
 const pageOne = function() {
     //this page will consist of a brief description about me
+    //as well as my contact information
 }
 
 const pageTwo = function() {
@@ -18,10 +18,6 @@ const pageTwo = function() {
 
 const pageThree = function() {
     //this page will consist of my work timeline
-}
-
-const pageFour = function() {
-    //this page will consist of my footer info
 }
 
 const renderPortfolio = function() {
