@@ -1,6 +1,6 @@
 'use strict';
 /* global $ */;
-
+//did not need to declare a function. could put it as a string
 const pageOne = `
             <section id="about-me">
                 <p>My name is Laurel Butler. I am a web developer with a focus in front end. But worry not because there is no fear dabbling with a little back end action here and there lying in my heart. I am located in Atlanta, GA and I found peace in code at the ripe age of 24 years old.</p>
@@ -29,15 +29,18 @@ const pageOne = `
                 <h5>I aspire to be better. I aspire to be great.</h5>
             </footer>`;
 
+//did not need to declare a function. could put it as a string
 const pageTwo = `<section id="projects">
                 My Homegrown and Made from Scratch Projects
                 
             </section>`;
 
+//did not need to declare a function. could put it as a string
 const pageThree = `<section id="work-experience">
         My work timeline/experience
     </section>`;
 
+//this function renders results on the page
 const bindClickHandlers = function() {
     $('.work-experience-link').on('click', function(event){
         $('#container').html(pageOne);
@@ -50,9 +53,9 @@ const bindClickHandlers = function() {
     });
 }
        
-
+//consolidated to one function
 function main() {
     bindClickHandlers();
-    $('#container').html(pageOne);
+    $('#container').html(pageOne); //this makes sure my pageOne is always rendered first
 }
 $(main);
