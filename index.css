@@ -40,4 +40,26 @@ section {
 section:nth-child(even) {
   background-color: #ddd;
 }
-
+.contact-details {
+  display: inline-block;
+  font-weight: bold;
+  margin: 0 35px 45px 35px;
+  list-style-type: none;
+  border: 2px solid;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  background: #e0ebe8;
+  color: black;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* li a.active {
+  background-color: #4CAF50;
+  color: white; 
+} */
