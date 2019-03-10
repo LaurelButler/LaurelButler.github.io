@@ -1,20 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Open Sans",
+  font-family: 'Roboto',
   sans-serif; 
   font-size: 20px;
-  color: #444;
+  background-color:rgb(212, 171, 184);
   text-align: center;
   line-height: 1.5;
 }
 
 nav,
 footer {
-  padding: 1% 0;
-  background-color: #aaa;
+  padding: 0.5% 0;
+  background-color: #C38D9E;
 }
 
 nav {
@@ -23,6 +24,7 @@ nav {
   left: 0;
   right: 0;
   z-index: 10;
+  display: inline-block;
 }
 
 
@@ -34,7 +36,7 @@ header {
 section {
   min-height: 200px;
   padding: 6% 0;
-  background-color: #bbb;
+  background-color:white;
 }
 
 section:nth-child(even) {
@@ -50,16 +52,19 @@ section:nth-child(even) {
   width: 100px;
   height: 100px;
   line-height: 100px;
-  background: #e0ebe8;
+  background: white;
   color: black;
   text-decoration: none;
+}
+.contact-details:hover {
+  font-size: 30px;
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-/* li a.active {
-  background-color: #4CAF50;
-  color: white; 
-} */
+li {
+  display: inline-block;
+  padding-left: 2%;
+}
