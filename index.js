@@ -27,8 +27,8 @@ const pageTwo =
                 <p>Oscars Quiz App</p><br>
                 <p>A fun quiz to determine how well you know our favorite movie stars.</p><br>
                 <p>HTML, CSS, JavaScript</p><br>
-                <a href="https://thinkful-ei-bee.github.io/laurel-scottw-quiz-app/"</a>
-                <a href="https://github.com/thinkful-ei-bee/laurel-scottw-quiz-app.git"</a>   
+                <a href="https://thinkful-ei-bee.github.io/laurel-scottw-quiz-app/">Quiz App Live Link</a>
+                <a href="https://github.com/thinkful-ei-bee/laurel-scottw-quiz-app.git">Quiz App Repo</a>   
             </section>`;
 
 //did not need to declare a function. could put it as a string
