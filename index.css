@@ -42,6 +42,11 @@ a, a:hover, a:visited {
   color: black;
   text-decoration: none;
 }
+
+.anchor-tags {
+  margin-right: 60px;
+  text-decoration: underline;
+}
 nav a,
 nav a:hover,
 nav a:visited {
@@ -50,7 +55,7 @@ nav a:visited {
 }
 
 header {
-  padding: 7% 0;
+  padding: 5% 0;
 }
 
 img {
@@ -64,6 +69,10 @@ section {
   background-color:white;
 }
 
+.project-photos {
+  width: 150px;
+  height: 150px;
+}
 section:nth-child(even) {
   background-color: #ddd;
 }

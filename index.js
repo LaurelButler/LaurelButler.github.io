@@ -3,6 +3,10 @@
 //did not need to declare a function. could put it as a string
 const pageOne = `
             <section id="about-me">
+             <header role="banner">
+                 <h1>Oh! Hello There and Welcome!</h1> 
+                 </header> 
+                 <img src = "/IMG_5296.jpg" alt = "A Photo of Me">
                 <p>My name is Laurel Butler. I am a web developer with a focus in front end. But worry not because there is no fear dabbling with a little back end action here and there lying in my heart. I am located in Atlanta, GA and I found peace in code at the ripe age of 24 years old.</p>
                 <p>My interests include but are not limited to:<br> Cats<br>Food<br>Computers<br>More Cats<br>More Food</p>
                 <p>An insatiable desire to have a vision and bring it to life brought me into the world of tech. The human/collaborative
@@ -24,11 +28,12 @@ const pageOne = `
 const pageTwo = 
             `<section id="projects">
                 <h1>My Homegrown and Made from Scratch Projects</h1>
+                <img src = "/Screen Shot 2019-03-07 at 3.33.54 PM (1).png" class = "project-photos" alt = "A Photo of Me">
                 <p>Oscars Quiz App</p><br>
                 <p>A fun quiz to determine how well you know our favorite movie stars.</p><br>
                 <p>HTML, CSS, JavaScript</p><br>
-                <a href="https://thinkful-ei-bee.github.io/laurel-scottw-quiz-app/">Quiz App Live Link</a>
-                <a href="https://github.com/thinkful-ei-bee/laurel-scottw-quiz-app.git">Quiz App Repo</a>   
+                <a href="https://thinkful-ei-bee.github.io/laurel-scottw-quiz-app/" class="anchor-tags">Quiz App Live Link</a>
+                <a href="https://github.com/thinkful-ei-bee/laurel-scottw-quiz-app.git" class="anchor-tags">Quiz App Repo</a>   
             </section>`;
 
 //did not need to declare a function. could put it as a string
