@@ -37,14 +37,24 @@ const pageThree =
     <h1>Work Experience</h1>
     <div class="work-info">
         <h3><strong>Superica</strong><br>December 2016 - Present<br>Atlanta, GA</h3>
-        <p> Professional support liaison who acted as the first method of contact and aided in product education and experience for the customer. Maintained quality, accuracy and professionalism in a fast-paced environment. Successfully completed the required training programs offered from the company. Ability to multi - task and adapt to changing environment. Perfected the craft of listening and communicating clearly, professionally, and empathetically. Escalated problems or inquiries from customers as needed. Provided a remarkable customer experience. Demonstrated high competency working in a fast - paced, team environment. Motivated colleagues to demonstrate high quality output, and positive work ethic.
+        <p>Professional support liaison who acted as the first method of contact and aided in product education and experience for the customer. Maintained quality, accuracy and professionalism in a fast-paced environment. Successfully completed the required training programs offered from the company. Ability to multi - task and adapt to changing environment. Perfected the craft of listening and communicating clearly, professionally, and empathetically. Escalated problems or inquiries from customers as needed. Provided a remarkable customer experience. Demonstrated high competency working in a fast - paced, team environment. Motivated colleagues to demonstrate high quality output, and positive work ethic.</p>
     </div>
     <div class="work-info">
-        <h3></h3>
+        <h3><strong>Administrative Assistant Internship</strong><br>January 2017 - February 2017<br>Atlanta, GA</h3>
+        <p>Managed and marketed social media websites.
+        Answered emails timely and efficiently as well as phone calls.
+        Daily responsibilities consisted of accounts receivable, mail management, and maintaining patient records, patient scheduling, and notifying them of upcoming appointments via email and telephone.</p>
     </div>
     <div class="work-info">
-        <ph3></h3>
+        <h3><strong>Kindergarten Teacher</strong><br>August 2014 - March 2016<br>Cairo, Egypt</h3>
+        <p>Taught english as a foreign language in addition to math, science, and social studies.
+        96 % graduation rate.
+        Innovator of afterschool programs and individualized summer learning programs.
+        Conducted new student assessments, created quarterly exams, and developed the curriculum based upon American Standards.</p>
     </div>
+    <div class="work-info>
+    <h3><strong>Customer Service Representative</strong><br>December 2011 - September 2012<br>Cairo, Egypt</h3>
+    <p> Handled inbound calls in a fast paced environment while diligently taking notes on each customers specific case. I provided a remarkable customer experience while communicating in a courteous manner using approved scripts. I met quality standards along with working collaboratively in a team environment. I educated customers on the company 's procedures while maintaining accuracy and professionalism; mastering empathy.</p>
     </section>`;
 
 //this function renders results on the page

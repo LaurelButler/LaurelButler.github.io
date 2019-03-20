@@ -53,6 +53,11 @@ header {
   padding: 7% 0;
 }
 
+img {
+  width: 200px;
+  height: 200px;
+}
+
 section {
   min-height: 200px;
   padding: 3% 0;
