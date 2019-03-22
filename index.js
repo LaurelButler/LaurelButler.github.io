@@ -28,7 +28,7 @@ const pageOne = `
 const pageTwo = 
             `<section id="projects">
                 <h1>My Homegrown and Made from Scratch Projects</h1>
-                <img src = "/Screen Shot 2019-03-07 at 3.33.54 PM (1).png" class = "project-photos" alt = "A Photo of Me">
+                <img src = "/Screen Shot 2019-03-07 at 3.33.54 PM (1).png" class = "project-photos">
                 <p>Oscars Quiz App</p><br>
                 <p>A fun quiz to determine how well you know our favorite movie stars.</p><br>
                 <p>HTML, CSS, JavaScript</p><br>
