@@ -18,6 +18,8 @@ const pageOne = `
                 <h3>Contact Me:</h3>
                 <a href = "https://github.com/LaurelButler" target = "_blank"
                 class ="contact-details" >GitHub</a>
+                <a href = "www.linkedin.com/in/laurel-butler-a85205b1" target = "_blank"
+                class ="contact-details" >LinkedIn</a>
                 <a href="mailto:laurelbutler126@gmail.com" class="contact-details">Email</a>
                 <a href="tel:4049649207" class="contact-details">Call</a>
                 <h5>I aspire to be better. I aspire to be great.</h5>
