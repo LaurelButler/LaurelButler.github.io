@@ -18,7 +18,7 @@ const pageOne = `
                 <h3>Contact Me:</h3>
                 <a href = "https://github.com/LaurelButler" target = "_blank"
                 class ="contact-details" >GitHub</a>
-                <a href = "www.linkedin.com/in/laurel-butler-a85205b1" target = "_blank"
+                <a href = "https://linkedin.com/in/laurel-butler-a85205b1" target = "_blank"
                 class ="contact-details" >LinkedIn</a>
                 <a href="mailto:laurelbutler126@gmail.com" class="contact-details">Email</a>
                 <a href="tel:4049649207" class="contact-details">Call</a>
@@ -30,12 +30,14 @@ const pageOne = `
 const pageTwo = 
             `<section id="projects">
                 <h1>My Homegrown and Made from Scratch Projects</h1>
+                <div>
                 <img src = "/Screen Shot 2019-03-07 at 3.33.54 PM (1).png" class = "project-photos">
                 <p>Oscars Quiz App</p><br>
                 <p>A fun quiz to determine how well you know our favorite movie stars.</p><br>
                 <p>HTML, CSS, JavaScript</p><br>
                 <a href="https://thinkful-ei-bee.github.io/laurel-scottw-quiz-app/" class="anchor-tags">Quiz App Live Link</a>
-                <a href="https://github.com/thinkful-ei-bee/laurel-scottw-quiz-app.git" class="anchor-tags">Quiz App Repo</a>   
+                <a href="https://github.com/thinkful-ei-bee/laurel-scottw-quiz-app.git" class="anchor-tags">Repo</a>  
+                </div> 
             </section>`;
 
 //did not need to declare a function. could put it as a string
