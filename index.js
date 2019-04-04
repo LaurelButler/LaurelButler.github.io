@@ -31,11 +31,12 @@ const pageTwo =
             `<section id="projects">
                 <h1>My Homegrown and Made from Scratch Projects</h1>
                 <div>
+                <h3>Oscars Quiz App</h3><br>
                 <img src = "/Screen Shot 2019-03-07 at 3.33.54 PM (1).png" class = "project-photos">
-                <p>Oscars Quiz App</p><br>
+                <br>
                 <p>A fun quiz to determine how well you know our favorite movie stars.</p><br>
                 <p>HTML, CSS, JavaScript</p><br>
-                <a href="https://thinkful-ei-bee.github.io/laurel-scottw-quiz-app/" class="anchor-tags">Quiz App Live Link</a>
+                <a href="https://thinkful-ei-bee.github.io/laurel-scottw-quiz-app/" class="anchor-tags">Live Link</a>
                 <a href="https://github.com/thinkful-ei-bee/laurel-scottw-quiz-app.git" class="anchor-tags">Repo</a>  
                 </div> 
             </section>`;
