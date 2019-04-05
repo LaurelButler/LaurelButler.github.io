@@ -29,15 +29,18 @@ const pageOne = `
 //did not need to declare a function. could put it as a string
 const pageTwo = 
             `<section id="projects">
-                <h1>My Homegrown and Made from Scratch Projects</h1>
-                <div>
-                <h3>Oscars Quiz App</h3><br>
-                <img src = "/Screen Shot 2019-03-07 at 3.33.54 PM (1).png" class = "project-photos">
+                <div id="projects" class="work">
+                <h2 class="work-header">My Homegrown and Made from Scratch Projects</h2>
+                <div id="project">
+                <a href="https://thinkful-ei-bee.github.io/laurel-scottw-quiz-app/" target="_blank" class="project project-title">
+                <img class="project-pic" src="/Screen Shot 2019-03-07 at 3.33.54 PM (1).png" alt="project">
+                <div class="project-title">Oscars Quiz App</div>
+                </a>
+                <p>A fun quiz to determine how well you know our favorite movie stars.</p>
                 <br>
-                <p>A fun quiz to determine how well you know our favorite movie stars.</p><br>
-                <p>HTML, CSS, JavaScript</p><br>
-                <a href="https://thinkful-ei-bee.github.io/laurel-scottw-quiz-app/" class="anchor-tags">Live Link</a>
-                <a href="https://github.com/thinkful-ei-bee/laurel-scottw-quiz-app.git" class="anchor-tags">Repo</a>  
+                <p>HTML, CSS, JavaScript</p>
+                 </div>
+
                 </div> 
             </section>`;
 
