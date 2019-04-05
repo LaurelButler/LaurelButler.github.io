@@ -52,7 +52,8 @@ a, a:hover, a:visited {
   border: 2px solid lightblue;
   height: 220px;
   width: 280px;
-  margin: 40px 100px;
+  /* margin: 40px 100px; */
+  margin: auto;
 }
 .project-pic {
   width: 100%;
