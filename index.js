@@ -37,10 +37,12 @@ const pageTwo =
                 <div class="project-title">Oscars Quiz App</div>
                 </a>
                 </div>
+                <div class="repo">
+                 <a href="https://github.com/thinkful-ei-bee/laurel-scottw-quiz-app" target="_blank">Repo</a>
                 <p>A fun quiz to determine how well you know our favorite movie stars.</p>
                 <br>
                 <p>HTML, CSS, JavaScript</p>
-                
+                </div>
 
                 </div> 
             </section>`;

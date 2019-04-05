@@ -67,6 +67,16 @@ a, a:hover, a:visited {
   padding-top: -10px;
   margin-top: -60px;
 }
+.repo {
+  text-decoration: none;
+  color: #008080;
+  display: inline-block;
+  overflow: hidden;
+  border: 2px solid lightblue;
+  height: 220px;
+  width: 280px;
+  margin: 40px 100px;
+}
 nav a,
 nav a:hover,
 nav a:visited {
