@@ -62,20 +62,24 @@ a, a:hover, a:visited {
 
 .project-title {
   font-weight: bold;
+  padding-bottom: 25px;
 }
 .work {
   padding-top: -10px;
   margin-top: -60px;
 }
-.repo {
-  text-decoration: none;
-  color: #008080;
-  display: inline-block;
-  overflow: hidden;
-  border: 2px solid lightblue;
-  height: 220px;
-  width: 280px;
-  margin: 40px 100px;
+.description {
+  border:thin Black;
+  border-style : none;
+}
+.stack {
+  border:thin Black;
+  border-style : none;
+}
+.repo-link {
+  border:thin Black;
+  border-style : none;
+  text-decoration: underline;
 }
 nav a,
 nav a:hover,
