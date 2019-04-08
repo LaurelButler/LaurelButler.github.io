@@ -1,15 +1,41 @@
 'use strict';
 /* global $ */;
+
+// const landingPage = `<section id="landing-page">
+//             <p></p>
+//             <h2>Tech Stack</h2>
+//             <ol>
+//                 <h2>Front-End</h2>
+//                 <li>HTML5</li>
+//                 <li>CSS3</li>
+//                 <li>JavaScript</li>
+//                 <li>jQuery</li>
+//                 <li>React</li>
+//                 <h2>Back-End</h2>
+//                 <li>Node.js</li>
+//                 <li>Mocha & Chai</li>
+//                 <li>PostgreSQL</li>
+//                 <li>REST APIs</li>
+//                 <h2>Dev Tools</h2>
+//                 <li>Git</li>
+//                 <li>GitHub</li>
+//                 <li>Chrome Dev Tools</li>
+//                 <li>Heroku</li>
+//             </ol>
+            
+//         </section>`
 //did not need to declare a function. could put it as a string
 const pageOne = `
             <section id="about-me">
              <header role="banner">
                  <h1>Oh! Hello There and Welcome!</h1> 
                  </header> 
-                 <img src = "/IMG_5296.jpg" alt = "A Photo of Me">
-                <p>My name is Laurel Butler. I am a web developer with a focus in front end. But worry not because there is no fear dabbling with a little back end action here and there lying in my heart. I am located in Atlanta, GA and I found peace in code at the ripe age of 24 years old.</p>
-                <p>My interests include but are not limited to:<br> Cats<br>Food<br>Computers<br>More Cats<br>More Food</p>
-                <p>An insatiable desire to have a vision and bring it to life brought me into the world of tech. The human/collaborative
+                 <img src = "/IMG_5426.jpg" alt = "A Photo of Me" class="profile-photo">
+                 <h3>console.logging('The World!');</h3>
+                 <br>
+                <p>My name is Laurel Butler. I am a full stack web developer with a focus in front end who pours the milk before the cereal because that is just the way it's done. I am located in Atlanta, GA and I found peace in code at the ripe age of 24 years old.</p>
+                <p>My interests include but are not limited to:<br> Cats<br>Food<br>Computers<br>Dad Jokes<br>Puns<br>Memes</p>
+                <p>An insatiable desire to have a vision and bring it to life brought me into the world of tech. An affinity for the art and problem solving of it all continues to drive me each day. And the human/collaborative
                 element involved in web development is what fuels me. I want to use my skills as a developer to make the dreams for
                 myself, clients, employers, entrepreneurs and anyone with a passion a reality.</p>
                 <p>Working with me is seamless, unless you prefer Dunkin' Donuts coffee over Starbucks. That is a deal breaker.</p>
@@ -43,19 +69,62 @@ const pageTwo =
                 </div>
                 
                 <div class="stack">
-                <p>HTML, CSS, JavaScript</p>
+                <p>HTML, CSS, JavaScript, jQuery</p>
                 </div>
 
                 <div class="repo-link">
                 <a href="https://github.com/thinkful-ei-bee/laurel-scottw-quiz-app" target="_blank">GitHub Repo</a>
                 </div>
+
+                <div id="project">
+                <a href="https://star-wars.laurelbutler.now.sh/" target="_blank" class="project project-title">
+                <img class="project-pic" src="/Screen Shot 2019-04-08 at 5.26.48 PM.png" alt="project">
+                <div class="project-title">Star Wars</div>
+                </a>
+                </div>
+                
+                <div class="description">
+                <p>Search your favorite characters by name.</p>
+                </div>
+                
+                <div class="stack">
+                <p>HTML, React, JSX</p>
+                </div>
+
+                <div class="repo-link">
+                <a href="https://github.com/thinkful-ei-bee/laurel-star-wars-deploy" target="_blank">GitHub Repo</a>
+                </div>
+
+                <div id="project">
+                <a href="https://thinkful-ei-bee.github.io/Farah-Laurel-Bookmark-app/" target="_blank" class="project project-title">
+                <img class="project-pic" src="/Screen Shot 2019-04-08 at 5.44.17 PM.png" alt="project">
+                <div class="project-title">Bookmark App</div>
+                </a>
+                </div>
+                
+                <div class="description">
+                <p>Search by rating and add bookmarks.</p>
+                </div>
+                
+                <div class="stack">
+                <p>HTML, CSS, JavaScript, jQuery</p>
+                </div>
+
+                <div class="repo-link">
+                <a href="https://github.com/thinkful-ei-bee/Farah-Laurel-Bookmark-app" target="_blank">GitHub Repo</a>
+                </div>
                 </div> 
+                
             </section>`;
 
 //did not need to declare a function. could put it as a string
 const pageThree = 
     `<section id="work-experience">
     <h1>Work Experience</h1>
+    <div class="work-info">
+       <h3><strong>Thinkful Web Development Apprenticeship</strong><br>February 2019 - Present<br>Atlanta, GA</h3> 
+       <p>Learned industry best practices and practical software development standards with a focus on HTML5, CSS3, JavaScript, jQuery, Node.js, React, Redux, and algorithms & data structures as well as creating and deploying mobile-first applications while learning new languages and frameworks by collaborating several hours every week with senior web developers.</p>
+    </div>
     <div class="work-info">
         <h3><strong>Superica</strong><br>December 2016 - Present<br>Atlanta, GA</h3>
         <p>Professional support liaison who acted as the first method of contact and aided in product education and experience for the customer. Maintained quality, accuracy and professionalism in a fast-paced environment. Successfully completed the required training programs offered from the company. Ability to multi - task and adapt to changing environment. Perfected the craft of listening and communicating clearly, professionally, and empathetically. Escalated problems or inquiries from customers as needed. Provided a remarkable customer experience. Demonstrated high competency working in a fast - paced, team environment. Motivated colleagues to demonstrate high quality output, and positive work ethic.</p>
@@ -80,6 +149,9 @@ const pageThree =
 
 //this function renders results on the page
 const bindClickHandlers = function() {
+    // $('.home-link').on('click', function (event) {
+    //     $('#container').html(landingPage);
+    // });
     $('.about-me-link').on('click', function(event){
         $('#container').html(pageOne);
     });

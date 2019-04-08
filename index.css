@@ -51,7 +51,7 @@ a, a:hover, a:visited {
   overflow: hidden;
   border: 2px solid lightblue;
   height: 220px;
-  width: 280px;
+  width: 250px;
   /* margin: 40px 100px; */
   margin: auto;
 }
@@ -93,20 +93,35 @@ header {
   padding: 40px 0;
 }
 
+h1 {
+  font-size: 55px;
+}
+
 img {
   width: 200px;
   height: 200px;
 }
-
+.profile-photo {
+  border-radius: 50%;
+  height: 250px;
+  width: 225px;
+}
 section {
   min-height: 200px;
-  padding: 40px 20px;
+  padding: 60px 60px;
   background-color:white;
+}
+#about-me {
+  box-sizing: border-box;
 }
 
 .project-photos {
   width: 150px;
   height: 150px;
+}
+
+.repo-link{
+  padding-bottom: 50px;
 }
 section:nth-child(even) {
   background-color: #ddd;
@@ -126,7 +141,8 @@ section:nth-child(even) {
   text-decoration: none;
 }
 .contact-details:hover {
-  font-size: 30px;
+  /* background-color: grey; */
+  background-color: #D3D3D3;
 }
 ul {
   list-style-type: none;
