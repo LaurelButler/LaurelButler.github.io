@@ -56,88 +56,67 @@ const pageOne = `
 //did not need to declare a function. could put it as a string
 const pageTwo = 
             `<section id="projects">
-            <div>
-              <h2 class="work-header">My Homegrown and Made from Scratch Projects</h2>
-          
-              <div id="project">
-          
-                <div class="project-image">
-                  <a href="https://thinkful-ei-bee.github.io/laurel-scottw-quiz-app/" target="_blank" class=" project-title">
-                    <img class="project-pic" src="/Screen Shot 2019-03-07 at 3.33.54 PM (1).png" alt="project">
-                    <div class="project-title">Oscars Quiz App</div>
-                  </a>
+                <div>
+                <h2 class="work-header">My Homegrown and Made from Scratch Projects</h2>
+                <div id="project">
+                <a href="https://thinkful-ei-bee.github.io/laurel-scottw-quiz-app/" target="_blank" class="project project-title">
+                <img class="project-pic" src="/Screen Shot 2019-03-07 at 3.33.54 PM (1).png" alt="project">
+                <div class="project-title">Oscars Quiz App</div>
+                </a>
                 </div>
-          
-                <div class="project-info">
-          
-                  <div class="description">
-                    <p>A fun quiz to determine how well you know our favorite movie stars.</p>
-                  </div>
-          
-                  <div class="stack">
-                    <p>HTML, CSS, JavaScript, jQuery</p>
-                  </div>
-          
-                  <div class="repo-link">
-                    <a href="https://github.com/thinkful-ei-bee/laurel-scottw-quiz-app" target="_blank">GitHub Repo</a>
-                  </div>
-          
+                
+                <div class="description">
+                <p>A fun quiz to determine how well you know our favorite movie stars.</p>
                 </div>
-              </div>
-          
-              <div id="project">
-          
-                <div class="project-image">
-                  <a href="https://star-wars.laurelbutler.now.sh/" target="_blank" class="project project-title">
-                    <img class="project-pic" src="/Screen Shot 2019-04-08 at 5.26.48 PM.png" alt="project">
-                    <div class="project-title">Star Wars</div>
-                  </a>
+                
+                <div class="stack">
+                <p>HTML, CSS, JavaScript, jQuery</p>
                 </div>
-          
-                <div class="project-info">
-          
-                  <div class="description">
-                    <p>Search your favorite characters by name.</p>
-                  </div>
-          
-                  <div class="stack">
-                    <p>HTML, React, JSX</p>
-                  </div>
-          
-                  <div class="repo-link">
-                    <a href="https://github.com/thinkful-ei-bee/laurel-star-wars-deploy" target="_blank">GitHub Repo</a>
-                  </div>
-          
+
+                <div class="repo-link">
+                <a href="https://github.com/thinkful-ei-bee/laurel-scottw-quiz-app" target="_blank">GitHub Repo</a>
                 </div>
-              </div>
-          
-              <div id="project">
-                <div class="project-img">
-                  <a href="https://thinkful-ei-bee.github.io/Farah-Laurel-Bookmark-app/" target="_blank"
-                    class="project project-title">
-                    <img class="project-pic" src="/Screen Shot 2019-04-08 at 5.44.17 PM.png" alt="project">
-                    <div class="project-title">Bookmark App</div>
-                  </a>
+
+                <div id="project">
+                <a href="https://star-wars.laurelbutler.now.sh/" target="_blank" class="project project-title">
+                <img class="project-pic" src="/Screen Shot 2019-04-08 at 5.26.48 PM.png" alt="project">
+                <div class="project-title">Star Wars</div>
+                </a>
                 </div>
-          
-                <div class="project-info">
-          
-                  <div class="description">
-                    <p>Search by rating and add bookmarks.</p>
-                  </div>
-          
-                  <div class="stack">
-                    <p>HTML, CSS, JavaScript, jQuery</p>
-                  </div>
-          
-                  <div class="repo-link">
-                    <a href="https://github.com/thinkful-ei-bee/Farah-Laurel-Bookmark-app" target="_blank">GitHub Repo</a>
-                  </div>
-          
+                
+                <div class="description">
+                <p>Search your favorite characters by name.</p>
                 </div>
-              </div>
-          
-          </section>`;
+                
+                <div class="stack">
+                <p>HTML, React, JSX</p>
+                </div>
+
+                <div class="repo-link">
+                <a href="https://github.com/thinkful-ei-bee/laurel-star-wars-deploy" target="_blank">GitHub Repo</a>
+                </div>
+
+                <div id="project">
+                <a href="https://thinkful-ei-bee.github.io/Farah-Laurel-Bookmark-app/" target="_blank" class="project project-title">
+                <img class="project-pic" src="/Screen Shot 2019-04-08 at 5.44.17 PM.png" alt="project">
+                <div class="project-title">Bookmark App</div>
+                </a>
+                </div>
+                
+                <div class="description">
+                <p>Search by rating and add bookmarks.</p>
+                </div>
+                
+                <div class="stack">
+                <p>HTML, CSS, JavaScript, jQuery</p>
+                </div>
+
+                <div class="repo-link">
+                <a href="https://github.com/thinkful-ei-bee/Farah-Laurel-Bookmark-app" target="_blank">GitHub Repo</a>
+                </div>
+                </div> 
+                
+            </section>`;
 
 //did not need to declare a function. could put it as a string
 const pageThree = 
