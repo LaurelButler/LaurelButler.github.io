@@ -47,16 +47,17 @@ a, a:hover, a:visited {
 #project {
   text-decoration: none;
   color: #008080;
-  display: inline-block;
+  display: flex;
   overflow: hidden;
-  border: 2px solid lightblue;
-  height: 220px;
-  width: 250px;
-  /* margin: 40px 100px; */
-  margin: auto;
+  background-color: lightgray;
+  /* border: 2px solid lightblue; */
+  /* height: 220px;
+  width: 250px; */
+  padding: 20px;
+  margin-bottom: 40px;
 }
 .project-pic {
-  width: 100%;
+  width: 250px;
   height: 180px;
   border-bottom: 2px solid lightblue;
 }
@@ -169,5 +170,8 @@ footer a {
   nav > ul {
     float: right;
     width: 350px;
+  }
+  #project {
+    flex-direction: row;
   }
 }
