@@ -34,6 +34,7 @@ const pageOne = `
                  <h3>console.logging('The World!');</h3>
                  <br>
                 <p>My name is Laurel Butler. I am a full stack web developer with a focus in front end who pours the milk before the cereal because that is just the way it's done. I am located in Atlanta, GA and I found peace in code at the ripe age of 24 years old.</p>
+                <p>I have the grit and determination of a baby learning to walk. Couple that with the energy of one thousand puppies and nothing can go wrong. I pride myself in taking on any challenge presented and not stopping until it is perfect.</p>
                 <p>My interests include but are not limited to:<br> Cats<br>Food<br>Computers<br>Dad Jokes<br>Puns<br>Memes</p>
                 <p>An insatiable desire to have a vision and bring it to life brought me into the world of tech. An affinity for the art and problem solving of it all continues to drive me each day. And the human/collaborative
                 element involved in web development is what fuels me. I want to use my skills as a developer to make the dreams for
