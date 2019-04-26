@@ -16,6 +16,15 @@ body {
   padding: 0; 
 }
 
+h2 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 35px;
+  text-decoration: underline;
+}
+
 nav,
 footer {
   padding: 15px 0;

@@ -1,29 +1,28 @@
 'use strict';
 /* global $ */;
 
-// const landingPage = `<section id="landing-page">
-//             <p></p>
-//             <h2>Tech Stack</h2>
-//             <ol>
-//                 <h2>Front-End</h2>
-//                 <li>HTML5</li>
-//                 <li>CSS3</li>
-//                 <li>JavaScript</li>
-//                 <li>jQuery</li>
-//                 <li>React</li>
-//                 <h2>Back-End</h2>
-//                 <li>Node.js</li>
-//                 <li>Mocha & Chai</li>
-//                 <li>PostgreSQL</li>
-//                 <li>REST APIs</li>
-//                 <h2>Dev Tools</h2>
-//                 <li>Git</li>
-//                 <li>GitHub</li>
-//                 <li>Chrome Dev Tools</li>
-//                 <li>Heroku</li>
-//             </ol>
+const landingPage = `<section id="landing-page">
+            <h2> < Tech Stack > </h2>
+            <ol>
+                <h3>Front-End</h3>
+                <li>HTML5</li><br>
+                <li>CSS3</li><br>
+                <li>JavaScript</li><br>
+                <li>jQuery</li><br>
+                <li>React</li>
+                <h3>Back-End</h3>
+                <li>Node.js</li><br>
+                <li>Mocha & Chai</li><br>
+                <li>PostgreSQL</li><br>
+                <li>REST APIs</li>
+                <h3>Dev Tools</h3>
+                <li>Git</li><br>
+                <li>GitHub</li><br>
+                <li>Chrome Dev Tools</li><br>
+                <li>Heroku</li>
+            </ol>
             
-//         </section>`
+        </section>`
 //did not need to declare a function. could put it as a string
 const pageOne = `
             <section id="about-me">
@@ -150,9 +149,9 @@ const pageThree =
 
 //this function renders results on the page
 const bindClickHandlers = function() {
-    // $('.home-link').on('click', function (event) {
-    //     $('#container').html(landingPage);
-    // });
+    $('.landing-page').on('click', function (event) {
+        $('#container').html(landingPage);
+    });
     $('.about-me-link').on('click', function(event){
         $('#container').html(pageOne);
     });
