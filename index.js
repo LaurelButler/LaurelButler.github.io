@@ -27,7 +27,7 @@ const landingPage = `<section id="landing-page">
 const pageOne = `
             <section id="about-me">
              <header role="banner">
-                 <h1>Oh! Hello There and Welcome!</h1> 
+                 <h1>Laurel Butler</h1> 
                  </header> 
                  <img src = "/IMG_5426.jpg" alt = "A Photo of Me" class="profile-photo">
                  <h4>console.logging('The World!');</h4>
