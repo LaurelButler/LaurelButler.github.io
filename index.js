@@ -58,6 +58,25 @@ const pageTwo =
                 <div>
                 <h2 class="work-header">My Homegrown and Made from Scratch Projects</h2>
                 <div id="project">
+                <a href="https://laurelbutler-nitelyfe.now.sh/" target="_blank" class="project project-title">
+                <img class="project-pic" src="/Screen Shot 2019-05-15 at 2.50.12 PM.png" alt="project">
+                <div class="project-title">NiteLyfe</div>
+                </a>
+                </div>
+                
+                <div class="description">
+                <p>Enjoy a night out on the town with great deals using this application. Search by day of the week to see what's going on in your city.</p>
+                </div>
+                
+                <div class="stack">
+                <p>HTML, CSS, JavaScript, React, Node.js, Heroku, postgreSQL</p>
+                </div>
+
+                <div class="repo-link">
+                <a href="https://github.com/LaurelButler/nitelyfe" target="_blank">GitHub Repo</a>
+                </div>
+
+                <div id="project">
                 <a href="https://thinkful-ei-bee.github.io/laurel-scottw-quiz-app/" target="_blank" class="project project-title">
                 <img class="project-pic" src="/Screen Shot 2019-03-07 at 3.33.54 PM (1).png" alt="project">
                 <div class="project-title">Oscars Quiz App</div>
