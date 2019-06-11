@@ -15,7 +15,21 @@ body {
   margin: 0;
   padding: 0; 
 }
-
+/* @keyframes fontbulger {
+  0% {
+    font-size: 25px;
+  }
+  30% {
+    font-size: 35px;
+  }
+  100% {
+    font-size: 40px;
+  }
+} */
+/* .name {
+   animation: fontbulger 2s;
+  
+} */
 h2 {
   font-size: 50px;
 }
@@ -52,13 +66,19 @@ a, a:hover, a:visited {
   color: black;
   text-decoration: none;
 }
-
+.about-me-info {
+  box-shadow: 10px 10px 8px 10px #888888;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
 #project {
   text-decoration: none;
-  color: #008080;
+  color: black;
   display: inline-block;
   overflow: hidden;
-  border: 2px solid lightblue;
+  border: 2px solid black;
   height: 220px;
   width: 250px;
   /* margin: 40px 100px; */
@@ -69,27 +89,26 @@ a, a:hover, a:visited {
   height: 180px;
   border-bottom: 2px solid lightblue;
 }
-
-.project-title {
-  font-weight: bold;
-  padding-bottom: 25px;
-}
 .work {
   padding-top: -10px;
   margin-top: -60px;
 }
 .description {
-  border:thin Black;
-  border-style : none;
+  border: 1px Black;
+  box-shadow: 10px 10px 8px 10px #888888;
 }
 .stack {
   border:thin Black;
   border-style : none;
 }
 .repo-link {
-  border:thin Black;
-  border-style : none;
-  text-decoration: underline;
+  display: block;
+  height: 35px;
+  width: auto;
+  border: 1px solid #000;
+}
+.repo-link:hover {
+  background-color: #D3D3D3;
 }
 nav a,
 nav a:hover,
@@ -129,8 +148,11 @@ section {
   height: 150px;
 }
 
-.repo-link{
-  padding-bottom: 50px;
+.repo-link {
+  margin-bottom: 50px;
+}
+.live-link {
+  margin-bottom: 50px;
 }
 section:nth-child(even) {
   background-color: #ddd;

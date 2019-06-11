@@ -2,7 +2,7 @@
 /* global $ */;
 
 const landingPage = `<section id="landing-page">
-            <h2> < Tech Stack > </h2>
+            <h2> < Tech Stack /> </h2>
             <ol>
                 <h3>Front-End</h3>
                 <li>HTML5</li><br>
@@ -27,11 +27,12 @@ const landingPage = `<section id="landing-page">
 const pageOne = `
             <section id="about-me">
              <header role="banner">
-                 <h1>Laurel Butler</h1> 
+                 <h1 class="name">Laurel Butler</h1> 
                  </header> 
                  <img src = "/IMG_5426.jpg" alt = "A Photo of Me" class="profile-photo">
                  <h4>console.logging('The World!');</h4>
                  <br>
+                <div class="about-me-info">
                 <p>My name is Laurel Butler. I am a full stack web developer with a focus in front end who pours the milk before the cereal because that is just the way it's done. I am located in Atlanta, GA and I found peace in code.</p>
                 <p>I have the grit and determination of a baby learning to walk. Couple that with the energy of one thousand puppies and nothing can go wrong. I pride myself in taking on any challenge presented and not stopping until it is perfect.</p>
                 <p>My interests include but are not limited to:<br> Cats<br>Food<br>Computers<br>Dad Jokes<br>Puns<br>Memes</p>
@@ -39,6 +40,7 @@ const pageOne = `
                 element involved in web development is what fuels me. I want to use my skills as a developer to make the dreams for
                 myself, clients, employers, entrepreneurs and anyone with a passion a reality.</p>
                 <p>Working with me is seamless, unless you prefer Dunkin' Donuts coffee over Starbucks. That is a deal breaker.</p>
+                </div>
             </section>
             <footer role="content-info">
                 <h3>Contact Me:</h3>
@@ -66,14 +68,26 @@ const pageTwo =
                 
                 <div class="description">
                 <p>Enjoy a night out on the town with great deals using this application. Search by day of the week to see what's going on in your city.</p>
+                <p>HTML, CSS, JavaScript, React, Node.js, Heroku, PostgreSQL</p>
+                <div class="repo-link">
+                    <a href="https://github.com/LaurelButler/nitelyfe" target="_blank">Repo</a>
+                </div>
+                </div>
+               
+
+                <div id="project">
+                <a href="https://laurelbutler-spaced-rep.now.sh/" target="_blank" class="project project-title">
+                <img class="project-pic" src="/Screen Shot 2019-06-10 at 7.16.01 PM.png" alt="project">
+                <div class="project-title">Spaced Repetition</div>
+                </a>
                 </div>
                 
-                <div class="stack">
-                <p>HTML, CSS, JavaScript, React, Node.js, Heroku, postgreSQL</p>
-                </div>
-
+                <div class="description">
+                <p>Learn some basic spanish words using this spaced repetition app.</p>
+                <p>HTML, CSS, React, Node.JS, Heroku, PostgreSQL</p>
                 <div class="repo-link">
-                <a href="https://github.com/LaurelButler/nitelyfe" target="_blank">GitHub Repo</a>
+                <a href="https://github.com/thinkful-ei-bee/spaced-rep-client-laurel-enrique" target="_blank">Repo</a>
+                </div>
                 </div>
 
                 <div id="project">
@@ -85,14 +99,10 @@ const pageTwo =
                 
                 <div class="description">
                 <p>A fun quiz to determine how well you know our favorite movie stars.</p>
-                </div>
-                
-                <div class="stack">
                 <p>HTML, CSS, JavaScript, jQuery</p>
-                </div>
-
                 <div class="repo-link">
-                <a href="https://github.com/thinkful-ei-bee/laurel-scottw-quiz-app" target="_blank">GitHub Repo</a>
+                <a href="https://github.com/thinkful-ei-bee/laurel-scottw-quiz-app" target="_blank">Repo</a>
+                </div>
                 </div>
 
                 <div id="project">
@@ -104,14 +114,10 @@ const pageTwo =
                 
                 <div class="description">
                 <p>Search your favorite characters by name.</p>
-                </div>
-                
-                <div class="stack">
                 <p>HTML, React, JSX</p>
-                </div>
-
                 <div class="repo-link">
-                <a href="https://github.com/thinkful-ei-bee/laurel-star-wars-deploy" target="_blank">GitHub Repo</a>
+                <a href="https://github.com/thinkful-ei-bee/laurel-star-wars-deploy" target="_blank">Repo</a>
+                </div>
                 </div>
 
                 <div id="project">
@@ -123,14 +129,10 @@ const pageTwo =
                 
                 <div class="description">
                 <p>Search by rating and add bookmarks.</p>
-                </div>
-                
-                <div class="stack">
                 <p>HTML, CSS, JavaScript, jQuery</p>
-                </div>
-
                 <div class="repo-link">
-                <a href="https://github.com/thinkful-ei-bee/Farah-Laurel-Bookmark-app" target="_blank">GitHub Repo</a>
+                <a href="https://github.com/thinkful-ei-bee/Farah-Laurel-Bookmark-app" target="_blank">Repo</a>
+                </div>
                 </div>
                 </div> 
                 
