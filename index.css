@@ -26,10 +26,14 @@ body {
     font-size: 40px;
   }
 } */
-/* .name {
-   animation: fontbulger 2s;
-  
-} */
+.name {
+   margin-bottom: 10px;
+   font-weight: 500;
+}
+.about-me-info {
+  margin: 0px;
+  padding: 0px;
+}
 h2 {
   font-size: 50px;
 }
@@ -72,6 +76,7 @@ a, a:hover, a:visited {
   padding-left: 20px;
   padding-bottom: 20px;
   padding-top: 20px;
+  font-size: 16px;
 }
 #project {
   text-decoration: none;
@@ -104,8 +109,10 @@ a, a:hover, a:visited {
 .repo-link {
   display: block;
   height: 35px;
-  width: auto;
-  border: 1px solid #000;
+  width: 90px;;
+  text-decoration: underline;
+  margin-left: 280px;
+  margin-bottom: 55px;
 }
 .repo-link:hover {
   background-color: #D3D3D3;
@@ -139,17 +146,10 @@ section {
   padding: 60px 60px;
   background-color:white;
 }
-#about-me {
-  box-sizing: border-box;
-}
 
 .project-photos {
   width: 150px;
   height: 150px;
-}
-
-.repo-link {
-  margin-bottom: 50px;
 }
 
 section:nth-child(even) {
@@ -173,6 +173,12 @@ section:nth-child(even) {
   /* background-color: grey; */
   background-color: #D3D3D3;
 }
+#tech-stack {
+  margin-right: 85px;
+}
+.tech-title {
+  margin-left: 68px;
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -192,6 +198,7 @@ footer a {
 }
 .work-info {
   text-align: left;
+  font-size: 16px;
 }
 
 @media only screen and (min-width: 600px)  {
