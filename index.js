@@ -88,7 +88,7 @@ const projects =
                 
                 <div class="description">
                 <p>Learn some basic spanish words using this spaced repetition app.</p>
-                <p>HTML, CSS, React, Node.JS, Heroku, PostgreSQL</p>
+                <p>HTML, CSS, Javascript, React, Node.JS, Heroku, PostgreSQL, Cypress</p>
                 <div class="repo-link">
                 <a href="https://github.com/thinkful-ei-bee/spaced-rep-client-laurel-enrique" target="_blank">Repo Link</a>
                 </div>
@@ -118,7 +118,7 @@ const projects =
                 
                 <div class="description">
                 <p>Search your favorite characters by name.</p>
-                <p>HTML, React, JSX</p>
+                <p>HTML, React, JavaScript</p>
                 <div class="repo-link">
                 <a href="https://github.com/thinkful-ei-bee/laurel-star-wars-deploy" target="_blank">Repo Link</a>
                 </div>
