@@ -65,7 +65,7 @@ const projects =
                 <h2 class="work-header">My Homegrown and Made from Scratch Projects</h2>
                 <div id="project">
                 <a href="https://laurelbutler-nitelyfe.now.sh/" target="_blank" class="project project-title">
-                <img class="project-pic" src="/Screen Shot 2019-05-15 at 2.50.12 PM.png" alt="project">
+                <img class="project-pic" src="nitelyfe.jpeg" alt="project">
                 <div class="project-title">NiteLyfe</div>
                 </a>
                 </div>
@@ -74,14 +74,14 @@ const projects =
                 <p>Enjoy a night out on the town with great deals using this application. Search by day of the week to see what's going on in your city.</p>
                 <p>HTML, CSS, JavaScript, React, Node.js, Heroku, PostgreSQL</p>
                 <div class="repo-link">
-                    <a href="https://github.com/LaurelButler/nitelyfe" target="_blank">Repo Link</a>
+                    <a href="https://github.com/LaurelButler/nitelyfe" target="_blank">Peek at the Code</a>
                 </div>
                 </div>
                
 
                 <div id="project">
                 <a href="https://laurelbutler-spaced-rep.now.sh/" target="_blank" class="project project-title">
-                <img class="project-pic" src="/Screen Shot 2019-06-10 at 7.16.01 PM.png" alt="project">
+                <img class="project-pic" src="spacedrep.jpeg" alt="project">
                 <div class="project-title">Spaced Repetition</div>
                 </a>
                 </div>
@@ -90,13 +90,13 @@ const projects =
                 <p>Learn some basic spanish words using this spaced repetition app.</p>
                 <p>HTML, CSS, Javascript, React, Node.JS, Heroku, PostgreSQL, Cypress</p>
                 <div class="repo-link">
-                <a href="https://github.com/thinkful-ei-bee/spaced-rep-client-laurel-enrique" target="_blank">Repo Link</a>
+                <a href="https://github.com/thinkful-ei-bee/spaced-rep-client-laurel-enrique" target="_blank">Peek at the Code</a>
                 </div>
                 </div>
 
                 <div id="project">
                 <a href="https://thinkful-ei-bee.github.io/laurel-scottw-quiz-app/" target="_blank" class="project project-title">
-                <img class="project-pic" src="/Screen Shot 2019-03-07 at 3.33.54 PM (1).png" alt="project">
+                <img class="project-pic" src="quizapp.jpeg" alt="project">
                 <div class="project-title">Oscars Quiz App</div>
                 </a>
                 </div>
@@ -105,13 +105,13 @@ const projects =
                 <p>A fun quiz to determine how well you know our favorite movie stars.</p>
                 <p>HTML, CSS, JavaScript, jQuery</p>
                 <div class="repo-link">
-                <a href="https://github.com/thinkful-ei-bee/laurel-scottw-quiz-app" target="_blank">Repo Link</a>
+                <a href="https://github.com/thinkful-ei-bee/laurel-scottw-quiz-app" target="_blank">Peek at the Code</a>
                 </div>
                 </div>
 
                 <div id="project">
                 <a href="https://star-wars.laurelbutler.now.sh/" target="_blank" class="project project-title">
-                <img class="project-pic" src="/Screen Shot 2019-04-08 at 5.26.48 PM.png" alt="project">
+                <img class="project-pic" src="starwars.jpeg" alt="project">
                 <div class="project-title">Star Wars</div>
                 </a>
                 </div>
@@ -120,22 +120,7 @@ const projects =
                 <p>Search your favorite characters by name.</p>
                 <p>HTML, React, JavaScript</p>
                 <div class="repo-link">
-                <a href="https://github.com/thinkful-ei-bee/laurel-star-wars-deploy" target="_blank">Repo Link</a>
-                </div>
-                </div>
-
-                <div id="project">
-                <a href="https://thinkful-ei-bee.github.io/Farah-Laurel-Bookmark-app/" target="_blank" class="project project-title">
-                <img class="project-pic" src="/Screen Shot 2019-04-08 at 5.44.17 PM.png" alt="project">
-                <div class="project-title">Bookmark App</div>
-                </a>
-                </div>
-                
-                <div class="description">
-                <p>Search by rating and add bookmarks.</p>
-                <p>HTML, CSS, JavaScript, jQuery</p>
-                <div class="repo-link">
-                <a href="https://github.com/thinkful-ei-bee/Farah-Laurel-Bookmark-app" target="_blank">Repo Link</a>
+                <a href="https://github.com/thinkful-ei-bee/laurel-star-wars-deploy" target="_blank">Peek at the Code</a>
                 </div>
                 </div>
                 </div> 
