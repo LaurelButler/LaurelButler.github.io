@@ -72,7 +72,7 @@ const projects =
                 
                 <div class="description">
                 <p>Enjoy a night out on the town with great deals using this application. Search by day of the week to see what's going on in your city.</p>
-                <p>HTML, CSS, JavaScript, React, Node.js, Heroku, PostgreSQL</p>
+                <p>HTML, CSS, JavaScript, React, Node.js, Heroku, PostgreSQL, Jest</p>
                 <div class="repo-link">
                     <a href="https://github.com/LaurelButler/nitelyfe" target="_blank">Peek at the Code</a>
                 </div>
