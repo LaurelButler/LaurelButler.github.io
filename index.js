@@ -72,7 +72,7 @@ const projects =
                 
                 <div class="description">
                 <p>Enjoy a night out on the town with great deals using this application. Search by day of the week to see what's going on in your city.</p>
-                <p>HTML, CSS, JavaScript, React, Node.js, Heroku, PostgreSQL, Jest</p>
+                <p> > HTML<br> > CSS<br> > JavaScript<br> > React<br> > Node.js<br> > Heroku<br> > PostgreSQL<br> > Jest</p>
                 <div class="repo-link">
                     <a href="https://github.com/LaurelButler/nitelyfe" target="_blank">Peek at the Code</a>
                 </div>
@@ -88,7 +88,7 @@ const projects =
                 
                 <div class="description">
                 <p>Learn some basic spanish words using this spaced repetition app.</p>
-                <p>HTML, CSS, Javascript, React, Node.JS, Heroku, PostgreSQL, Cypress</p>
+                <p> > HTML<br> > CSS<br> > Javascript<br> > React<br> > Node.JS<br> > Heroku<br> > PostgreSQL<br> > Cypress</p>
                 <div class="repo-link">
                 <a href="https://github.com/thinkful-ei-bee/spaced-rep-client-laurel-enrique" target="_blank">Peek at the Code</a>
                 </div>
@@ -103,7 +103,7 @@ const projects =
                 
                 <div class="description">
                 <p>A fun quiz to determine how well you know our favorite movie stars.</p>
-                <p>HTML, CSS, JavaScript, jQuery</p>
+                <p> > HTML<br> > CSS<br> > JavaScript<br> > jQuery</p>
                 <div class="repo-link">
                 <a href="https://github.com/thinkful-ei-bee/laurel-scottw-quiz-app" target="_blank">Peek at the Code</a>
                 </div>
@@ -118,7 +118,7 @@ const projects =
                 
                 <div class="description">
                 <p>Search your favorite characters by name.</p>
-                <p>HTML, React, JavaScript</p>
+                <p> > HTML<br> > React<br> > JavaScript</p>
                 <div class="repo-link">
                 <a href="https://github.com/thinkful-ei-bee/laurel-star-wars-deploy" target="_blank">Peek at the Code</a>
                 </div>
