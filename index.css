@@ -86,13 +86,15 @@ a, a:hover, a:visited {
   border: 2px solid black;
   height: 300px;
   width: 350px;
-  /* margin: 40px 100px; */
   margin: auto;
+  padding: auto;
 }
 .project-pic {
   width: 100%;
   height: 250px;
   border-bottom: 2px solid black;
+  margin: auto;
+  padding: auto;
 }
 .work {
   padding-top: -10px;
@@ -104,6 +106,7 @@ a, a:hover, a:visited {
   font-size: 16px;
   width: 360px;
   margin: auto;
+  padding: auto;
 }
 .stack {
   border:thin Black;
@@ -143,7 +146,7 @@ img {
 }
 section {
   min-height: 200px;
-  padding: 60px 60px;
+  padding: 40px 40px;
   background-color:white;
 }
 
