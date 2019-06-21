@@ -63,9 +63,26 @@ const projects =
             `<section id="projects">
                 <div>
                 <h2 class="work-header">My Homegrown and Made from Scratch Projects</h2>
+
+                <div id="project">
+                <a href="https://rendezvous-app.now.sh/landingPage" target="_blank" class="project project-title">
+                <img class="project-pic" src="rendezvous.png" alt="project">
+                <div class="project-title">Rendezvous</div>
+                </a>
+                </div>
+                
+                <div class="description">
+                <p>Cut out the awkwardness of finding mutual interests for first dates.</p>
+                <p> > HTML<br> > CSS<br> > JavaScript<br> > React<br> > Node.js<br> > Heroku<br> > PostgreSQL<br> > Jest</p>
+                <div class="repo-link">
+                    <a href="https://github.com/thinkful-ei-bee/EastCoast-Team-Project-Client" target="_blank">Peek at the Code</a>
+                </div>
+                </div>
+
+
                 <div id="project">
                 <a href="https://laurelbutler-nitelyfe.now.sh/" target="_blank" class="project project-title">
-                <img class="project-pic" src="nitelyfe.jpeg" alt="project">
+                <img class="project-pic" src="nitelyfe.png" alt="project">
                 <div class="project-title">NiteLyfe</div>
                 </a>
                 </div>
@@ -81,7 +98,7 @@ const projects =
 
                 <div id="project">
                 <a href="https://laurelbutler-spaced-rep.now.sh/" target="_blank" class="project project-title">
-                <img class="project-pic" src="spacedrep.jpeg" alt="project">
+                <img class="project-pic" src="spacedrep.png" alt="project">
                 <div class="project-title">Spaced Repetition</div>
                 </a>
                 </div>
@@ -96,7 +113,7 @@ const projects =
 
                 <div id="project">
                 <a href="https://thinkful-ei-bee.github.io/laurel-scottw-quiz-app/" target="_blank" class="project project-title">
-                <img class="project-pic" src="quizapp.jpeg" alt="project">
+                <img class="project-pic" src="quizapp.png" alt="project">
                 <div class="project-title">Oscars Quiz App</div>
                 </a>
                 </div>
@@ -111,7 +128,7 @@ const projects =
 
                 <div id="project">
                 <a href="https://star-wars.laurelbutler.now.sh/" target="_blank" class="project project-title">
-                <img class="project-pic" src="starwars.jpeg" alt="project">
+                <img class="project-pic" src="starwars.png" alt="project">
                 <div class="project-title">Star Wars</div>
                 </a>
                 </div>
