@@ -20,6 +20,8 @@ const techSkills = `<section id="tech-stack">
                 <li>GitHub</li><br>
                 <li>Chrome Dev Tools</li><br>
                 <li>Heroku</li>
+                <li>Cypress</li>
+                <li>Postman</li>
             </ol>
             
         </section>
@@ -72,7 +74,7 @@ const projects =
                 </div>
                 
                 <div class="description">
-                <p>Cut out the awkwardness of finding mutual interests for first dates.</p>
+                <p>Cut out the awkwardness of finding mutual interests for first dates and let us do the work for you.</p>
                 <p> > HTML<br> > CSS<br> > JavaScript<br> > React<br> > Node.js<br> > Heroku<br> > PostgreSQL<br> > Jest</p>
                 <div class="repo-link">
                     <a href="https://github.com/thinkful-ei-bee/EastCoast-Team-Project-Client" target="_blank">Peek at the Code</a>
