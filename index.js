@@ -68,7 +68,7 @@ const projects =
 
                 <div id="project">
                 <a href="https://rendezvous-app.now.sh/landingPage" target="_blank" class="project project-title">
-                <img class="project-pic" src="rendezvous.png" alt="project">
+                <img class="project-pic" src="projectphotos/rendezvous.png" alt="project">
                 <div class="project-title">Rendezvous</div>
                 </a>
                 </div>
@@ -84,7 +84,7 @@ const projects =
 
                 <div id="project">
                 <a href="https://laurelbutler-nitelyfe.now.sh/" target="_blank" class="project project-title">
-                <img class="project-pic" src="nitelyfe.png" alt="project">
+                <img class="project-pic" src="projectphotos/nitelyfe.png" alt="project">
                 <div class="project-title">NiteLyfe</div>
                 </a>
                 </div>
@@ -100,7 +100,7 @@ const projects =
 
                 <div id="project">
                 <a href="https://laurelbutler-spaced-rep.now.sh/" target="_blank" class="project project-title">
-                <img class="project-pic" src="spacedrep.png" alt="project">
+                <img class="project-pic" src="projectphotos/spacedrep.png" alt="project">
                 <div class="project-title">Spaced Repetition</div>
                 </a>
                 </div>
@@ -115,7 +115,7 @@ const projects =
 
                 <div id="project">
                 <a href="https://thinkful-ei-bee.github.io/laurel-scottw-quiz-app/" target="_blank" class="project project-title">
-                <img class="project-pic" src="quizapp.png" alt="project">
+                <img class="project-pic" src="projectphotos/quizapp.png" alt="project">
                 <div class="project-title">Oscars Quiz App</div>
                 </a>
                 </div>
@@ -130,7 +130,7 @@ const projects =
 
                 <div id="project">
                 <a href="https://star-wars.laurelbutler.now.sh/" target="_blank" class="project project-title">
-                <img class="project-pic" src="starwars.png" alt="project">
+                <img class="project-pic" src="projectphotos/starwars.png" alt="project">
                 <div class="project-title">Star Wars</div>
                 </a>
                 </div>
